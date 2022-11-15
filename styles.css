@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+section,
+.middle-container,
+blockquote,
+.bottom-container,
+footer {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+header,
+.section-container,
+footer {
+    background-color: #1f2937;
+}
+
+/* Header */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-link {
+    color: #e5e7eb;
+}
+
+.header-link:hover {
+    color: gray;
+}
+
+.header-link:active {
+    color: rgb(94, 113, 138);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* section */
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.signup-container {
+    width: 45%;
+}
+
+.signup-container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    line-height: .95;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px 0 8px 0;
+}
+
+.signup-container button {
+    cursor: pointer;
+    background-color: #186bf1;
+    margin:0;
+    padding: 5px 28px;
+    border: none;
+    border-radius: 4px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.signup-container button:hover {
+    background-color: #78a8f7;
+}
+
+.signup-container button:active {
+    background-color: #3882f6;
+}
+
+.hero-image {
+    margin: 0;
+    width: 55%;
+}
+
+.hero-text {
+    background-color: grey;
+    margin: 0;
+    padding: 20px;
+}
+
+.hero-text p {
+    margin: 0;
+}
